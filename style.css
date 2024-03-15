@@ -2,7 +2,19 @@ h1 {
   font-size: 72px;
 }
 
-p {
+#first_section p {
   font-size: 20px;
   color: #515151;
+}
+
+.orange_accent {
+  background-color: orange;
+}
+
+.digital_accent {
+  
+}
+
+.black_accent {
+  
 }
