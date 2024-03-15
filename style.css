@@ -8,13 +8,17 @@ h1 {
 }
 
 .orange_accent {
-  background-color: orange;
+  background-color: #FFB901;
+  border-radius: 100px;
 }
 
 .digital_accent {
-  
+  font-weight: bold;
 }
 
 .black_accent {
-  
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+  width: fit-content;
 }
