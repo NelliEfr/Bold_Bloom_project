@@ -1,5 +1,23 @@
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_menu {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+
 h1 {
   font-size: 72px;
+}
+
+#first_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #first_section p {
@@ -9,7 +27,7 @@ h1 {
 
 .orange_accent {
   background-color: #FFB901;
-  border-radius: 100px;
+  border-radius: 65px;
 }
 
 .digital_accent {
