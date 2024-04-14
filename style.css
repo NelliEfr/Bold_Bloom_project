@@ -1,7 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 1140px;
+  margin: 0 auto;
+}
+
 #header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 24px 0;
 }
 
 .nav_menu {
@@ -18,16 +30,21 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 72px 0;
 }
 
 #first_section p {
   font-size: 20px;
   color: #515151;
+  width: 450px;
+  margin-top: 48px;
+  margin-bottom: 64px;
 }
 
 .orange_accent {
   background-color: #FFB901;
   border-radius: 65px;
+  padding: 0 15px;
 }
 
 .digital_accent {
@@ -39,4 +56,5 @@ h1 {
   color: white;
   border-radius: 30px;
   width: fit-content;
+  padding: 16px 40px;
 }
