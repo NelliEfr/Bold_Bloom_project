@@ -58,3 +58,29 @@ h1 {
   width: fit-content;
   padding: 16px 40px;
 }
+
+#achievements_section {
+  display: flex;
+  justify-content: space-between;
+  padding: 72px 0;
+}
+
+#achievements_section > div {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 20px;
+}
+
+#achievements_section > div p:first-child {
+  font-size: 72px;
+  font-weight: 600;
+}
+
+#achievements_section > div p:last-child {
+  font-size: 18px;
+}
+
+#achievements_section > div p:last-child span{
+  display: block;
+}
