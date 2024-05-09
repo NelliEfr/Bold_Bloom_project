@@ -133,6 +133,7 @@ h2 {
 #portfolio_section .portfolio_container > div:first-child {
   background-image: url('./media/portfolio_1.png');
   background-position: center;
+  grid-column: 1 / span 3;
 }
 
 #portfolio_section .portfolio_container > div:nth-child(2) {
@@ -143,6 +144,7 @@ h2 {
 #portfolio_section .portfolio_container > div:last-child {
   background-image: url('./media/portfolio_3.png');
   background-position: center;
+  grid-column: 2 / span 2;
 }
 
 #portfolio_section .portfolio_container > div p:first-child {
