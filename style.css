@@ -26,6 +26,18 @@ h1 {
   font-size: 72px;
 }
 
+h2 {
+  font-size: 56px;
+  font-weight: bold;
+}
+
+.sub_header {
+  font-size: 24px;
+  color: #515151;
+  width: 556px;
+  text-align: center;
+}
+
 #first_section {
   display: flex;
   justify-content: space-between;
@@ -83,4 +95,63 @@ h1 {
 
 #achievements_section > div p:last-child span{
   display: block;
+}
+
+#portfolio_section {
+  padding: 72px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+#portfolio_section .section_description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+#portfolio_section .section_description > span {
+  font-size: 24px;
+}
+
+#portfolio_section .portfolio_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 658px);
+  gap: 15px;
+}
+
+#portfolio_section .portfolio_container > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 16px;
+  padding: 32px;
+}
+
+#portfolio_section .portfolio_container > div:first-child {
+  background-image: url('./media/portfolio_1.png');
+  background-position: center;
+}
+
+#portfolio_section .portfolio_container > div:nth-child(2) {
+  background-image: url('./media/portfolio_2.png');
+  background-position: center;
+}
+
+#portfolio_section .portfolio_container > div:last-child {
+  background-image: url('./media/portfolio_3.png');
+  background-position: center;
+}
+
+#portfolio_section .portfolio_container > div p:first-child {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#portfolio_section .portfolio_container > div p:last-child {
+  color: #FFB901;
+  font-size: 18px;
 }
