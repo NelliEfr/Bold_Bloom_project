@@ -23,16 +23,16 @@ body {
 }
 
 h1 {
-  font-size: 72px;
+  font-size: 4.5rem;
 }
 
 h2 {
-  font-size: 56px;
+  font-size: 3.5rem;
   font-weight: bold;
 }
 
 .sub_header {
-  font-size: 24px;
+  font-size: 1.5rem;
   color: #515151;
   width: 50%;
   text-align: center;
@@ -46,7 +46,7 @@ h2 {
 }
 
 #first_section p {
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #515151;
   width: 65%;
   margin-top: 48px;
@@ -85,12 +85,12 @@ h2 {
 }
 
 #achievements_section > div p:first-child {
-  font-size: 72px;
+  font-size: 4.5rem;
   font-weight: 600;
 }
 
 #achievements_section > div p:last-child {
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 #achievements_section > div p:last-child span{
@@ -112,7 +112,7 @@ h2 {
 }
 
 #portfolio_section .section_description > span {
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 #portfolio_section .portfolio_container {
@@ -149,11 +149,11 @@ h2 {
 
 #portfolio_section .portfolio_container > div p:first-child {
   color: white;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
 #portfolio_section .portfolio_container > div p:last-child {
   color: #FFB901;
-  font-size: 18px;
+  font-size: 1.125rem;
 }
